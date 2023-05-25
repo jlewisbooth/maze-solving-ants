@@ -135,6 +135,8 @@ void MazeBuilder::Maze::showMaze() {
          std::cout << std::endl;
     }
 
+    printf("\033[%d;0H ^^ Generated Graph with dimensions: %dx%d ^^", height + 3, width);
+
     std::cout << std::endl;
 }
 
